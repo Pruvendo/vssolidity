@@ -14,11 +14,11 @@ Free TON Solidity expands Solidity language with different API functions to faci
 
 ## Installation
 
-The recommended way to install VsSolidity is via the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RubenAkhayan.vssolidity).
+The recommended way to install VsSolidity is via the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Pruvendo.vssolidity).
 
 ## Screenshots
-![screenshot1](https://github.com/RubenAkhayan/vssolidity/blob/master/screenshots/screenshot1.png)
+![screenshot1](https://github.com/Pruvendo/vssolidity/blob/master/screenshots/screenshot1.png)
 
-![screenshot2](https://github.com/RubenAkhayan/vssolidity/blob/master/screenshots/screenshot2.png)
+![screenshot2](https://github.com/Pruvendo/vssolidity/blob/master/screenshots/screenshot2.png)
 
-![screenshot3](https://github.com/RubenAkhayan/vssolidity/blob/master/screenshots/screenshot3.png)
+![screenshot3](https://github.com/Pruvendo/vssolidity/blob/master/screenshots/screenshot3.png)
