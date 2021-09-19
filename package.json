@@ -7,7 +7,7 @@
     "email": "info@pruvendo.com",
     "url": "https://pruvendo.com/"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Pruvendo",
   "license": "MIT",
   "icon": "images/icon.png",
@@ -1066,18 +1066,10 @@
           "group": "solidity"
         }
       ]
-<<<<<<< HEAD
-<<<<<<< HEAD
     },
     "colors": [
       {}
     ]
-=======
-    }
->>>>>>> 55584dcc258dbb6e8246ca579d805addc8bc5e93
-=======
-    }
->>>>>>> 958998d729a624b1157318fae9f9e49ca59b71ff
   },
   "main": "./out/client/src/extension",
   "scripts": {
