@@ -357,7 +357,7 @@
             "name": "constant.language.time"
         },
         "constant-currency": {
-            "match": "\\b(ether|wei|finney|szabo)\\b",
+            "match": "\\b(ton)\\b",
             "name": "constant.language.currency"
         },
         "number": {
@@ -507,7 +507,7 @@
             ]
         },
         "type-modifier-access": {
-            "match": "\\b(internal|external|private|public)\\b",
+            "match": "\\b(internal|external|private|public|inline)\\b",
             "name": "storage.type.modifier.access"
         },
         "type-modifier-payable": {
@@ -523,7 +523,7 @@
             "name": "storage.type.modifier.readonly"
         },
         "type-modifier-extended-scope": {
-            "match": "\\b(pure|view|inherited|indexed|storage|memory|virtual|calldata|override|abstract)\\b",
+            "match": "\\b(pure|view|inherited|indexed|storage|memory|virtual|calldata|override|abstract|responsible)\\b",
             "name": "storage.type.modifier.extendedscope"
         },
         "variable": {
