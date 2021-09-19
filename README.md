@@ -1,5 +1,5 @@
 # Free TON Solidity Language for Visual Studio Code
-Provides comprehensive Solidity Language support to [Visual Studio Code](https://code.visualstudio.com/), via the [vssolidity](https://github.com/RubenAkhayan/vssolidity), with support for the [Free TON](https://tonlabs.io/main).
+Provides comprehensive Solidity Language support to [Visual Studio Code](https://code.visualstudio.com/), via the [vssolidity](https://github.com/Pruvendo/vssolidity), with support for the [Free TON](https://tonlabs.io/main).
 
 Welcome! 👋🏻<br/>
 Free TON Solidity expands Solidity language with different API functions to facilitate TON contract development.
@@ -16,3 +16,5 @@ Free TON Solidity expands Solidity language with different API functions to faci
 
 The recommended way to install VsSolidity is via the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RubenAkhayan.vssolidity).
 
+## Screenshots
+![screenshot1](https://github.com/RubenAkhayan/vssolidity/screenshot/screenshot1.png)
