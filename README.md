@@ -1,9 +1,5 @@
 # Free TON Solidity Language for Visual Studio Code
-Provides comprehensive [Free TON](https://tonlabs.io/main)
 Solidity Language support to [Visual Studio Code](https://code.visualstudio.com/), via the [vssolidity](https://github.com/Pruvendo/vssolidity.git).
-
-Welcome! 👋🏻<br/>
-Free TON Solidity expands Solidity language with different API functions to facilitate TON contract development.
 
 Developed by [Pruvendo](https://pruvendo.com)
 

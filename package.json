@@ -26,10 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/RubenAkhayan/vssolidity.git"
+    "url": "https://github.com/Pruvendo/vssolidity.git"
   },
   "bugs": {
-    "url": "https://github.com/RubenAkhayan/vssolidity/issues"
+    "url": "https://github.com/Pruvendo/vssolidity/issues"
   },
   "activationEvents": [
     "onLanguage:solidity"
@@ -1066,10 +1066,14 @@
           "group": "solidity"
         }
       ]
+<<<<<<< HEAD
     },
     "colors": [
       {}
     ]
+=======
+    }
+>>>>>>> 55584dcc258dbb6e8246ca579d805addc8bc5e93
   },
   "main": "./out/client/src/extension",
   "scripts": {
