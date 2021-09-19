@@ -1,6 +1,8 @@
 # Free TON Solidity Language for Visual Studio Code
 Solidity Language support to [Visual Studio Code](https://code.visualstudio.com/), via the [vssolidity](https://github.com/Pruvendo/vssolidity.git).
 
+The source code is available at [https://github.com/Pruvendo/vssolidity.git](https://github.com/Pruvendo/vssolidity.git).
+
 Developed by [Pruvendo](https://pruvendo.com)
 
 ## Features
@@ -15,7 +17,8 @@ Developed by [Pruvendo](https://pruvendo.com)
 
 Before the installation remove all the Solidity syntax highlighing plugins installed in you *VSCode*.
 
-The recommended way to install VsSolidity is via the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Pruvendo.vssolidity).
+The recommended way to install VSSolidity is via
+the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Pruvendo.vssolidity).
 
 In case of manual build use the following sequence of actions:
 * Install latest *npm*
