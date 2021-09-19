@@ -1067,6 +1067,7 @@
         }
       ]
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
     "colors": [
       {}
@@ -1074,6 +1075,9 @@
 =======
     }
 >>>>>>> 55584dcc258dbb6e8246ca579d805addc8bc5e93
+=======
+    }
+>>>>>>> 958998d729a624b1157318fae9f9e49ca59b71ff
   },
   "main": "./out/client/src/extension",
   "scripts": {
