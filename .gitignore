@@ -9,3 +9,4 @@ start-env.ps1
 **/npm-debug.log
 *.tsbuildinfo
 *.vsix
+*.pdf

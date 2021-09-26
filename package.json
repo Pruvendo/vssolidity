@@ -3,11 +3,11 @@
   "displayName": "VSSolidity",
   "description": "Free TON Solidity Language for Visual Studio Code",
   "author": {
-    "name": "Pruvendo OÜ",
+    "name": "Pruvendo",
     "email": "info@pruvendo.com",
-    "url": "http://pruvendo.com"
+    "url": "https://pruvendo.com/"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Pruvendo",
   "license": "MIT",
   "icon": "images/icon.png",
@@ -1066,7 +1066,10 @@
           "group": "solidity"
         }
       ]
-    }
+    },
+    "colors": [
+      {}
+    ]
   },
   "main": "./out/client/src/extension",
   "scripts": {
