@@ -40,8 +40,6 @@ export interface SolidityTopSettings {
 export interface AutoFormattingSettings {
   enable: boolean, // mast switch
   indentAfterBullet: 'none' | 'indent' | 'align',
-  indentAfterOpenProof: boolean,
-  unindentOnCloseProof: boolean,
 }
 
 export interface SoliditySettings {

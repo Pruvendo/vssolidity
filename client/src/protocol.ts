@@ -32,15 +32,11 @@ export interface SolidityTopSettings {
   binPath: string;
   /** A list of arguments to send to solidityqtop. @default `[]` */
   args: string[];
-  /** When should an instance of soliditytop be started for a Solidity script */
-  startOn: 'open-script' | 'interaction',
 }
 
 export interface AutoFormattingSettings {
   enable: boolean, // mast switch
   indentAfterBullet: 'none' | 'indent' | 'align',
-  indentAfterOpenProof: boolean,
-  unindentOnCloseProof: boolean,
 }
 
 export interface SoliditySettings {

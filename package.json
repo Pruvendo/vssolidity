@@ -7,7 +7,7 @@
     "email": "info@pruvendo.com",
     "url": "https://pruvendo.com/"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "Pruvendo",
   "license": "MIT",
   "icon": "images/icon.png",
@@ -1001,14 +1001,9 @@
           "default": [],
           "description": ""
         },
-        "soliditytop.startOn": {
-          "type": "string",
-          "enum": [
-            "open-script",
-            "interaction"
-          ],
-          "default": "interaction",
-          "markdownDescription": ""
+        "solidity.format.enable": {
+          "type":"boolean",
+          "default": "true"
         },
         "solidity.format.indentAfterBullet": {
           "type": "string",
