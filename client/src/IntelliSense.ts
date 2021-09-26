@@ -67,7 +67,7 @@ class GoCompletionItemProvider implements vscode.CompletionItemProvider {
         const lines = prefix.split('\n');
         const lastLine:string = lines[lines.length-1];
         const words = lastLine.split(' ');
-        const word = words[words.length-1];
+        const word = words[words.length-1].trim();
 
         return new Promise<vscode.CompletionList>((resolve, reject) => {
           let item:any[] = [];
