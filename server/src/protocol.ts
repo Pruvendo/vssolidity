@@ -33,8 +33,6 @@ export interface SolidityTopSettings {
   binPath: string;
   /** A list of arguments to send to soliditytop. @default `[]` */
   args: string[];
-  /** When should an instance of soliditytop be started for a Solidity script */
-  startOn: 'open-script' | 'interaction',
 }
 
 export interface AutoFormattingSettings {
