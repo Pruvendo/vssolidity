@@ -8,6 +8,7 @@ import {
   CodeLensParams,
   CompletionItem, ServerCapabilities, CodeActionParams, Command, CodeLens,
   CompletionItemKind
+  // , Location, Range
 } from 'vscode-languageserver';
 import * as vscodeLangServer from 'vscode-languageserver';
 
@@ -61,6 +62,17 @@ connection.onDidChangeConfiguration((change) => {
   // Revalidate any open text documents
   // documents.all().forEach(validateTextDocument);
 });
+
+/*
+connection.onDefinition((handler: TextDocumentPositionParams): Thenable<Location | Location[]> => {
+  return Promise.resolve(
+    Location.create(
+      projectParams.textDocument.uri,
+      Range.create(0, 0, 0, 0),
+    ),
+  );
+});
+*/
 
 // This handler provides the initial list of the completion items.
 connection.onCompletion((textDocumentPosition: TextDocumentPositionParams): CompletionItem[] => {

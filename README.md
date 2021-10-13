@@ -90,8 +90,6 @@ The following elements are automatically highlighted:
   - `unchecked`
   - `assembly` and `let`
 
-All the syntax highlighting rules are defined at `client/syntaxes/solidity.tmLanguage.json`
-
 The example of the highlighted source code is provided below:
 
 
@@ -150,29 +148,31 @@ Currently the following snippets are supported (the word in parentheses indicate
 - `valueToGas` declaration (`valueToGas`)
 - help runtime error codes (`help-runtime-error-codes`)
 
-
-The present list of snippets is rather experimental and was not tested in real development. All the users are more than welcomed to provide their suggestions how to make it more useful and efficient.
-
-The complete list of snippet rules is located at `./client/snippets/solidity.json`
+![snippets onBounce](./images/screenshot2.png)
 
 ### Code completion
 
-The present implementation provides the limited functionality for code completion. A few examples are below:
+The following TON-types are supported:
 
-![TVM example](./images/screenshot2.png)
+- TvmCell
+- TvmSlice
+- TvmBuilder
+- uint[]
+- bytes
+- string
 
---------------
+![TvmSlice](./images/screenshot3.png)
 
+The following TON-functions are supported:
 
-![TVM example2](./images/screenshot3.png)
+- msg
+- tvm
+- math
+- tx
+- block
+- rnd
 
---------------
-
-![Autocomplete example1](./images/screenshot4.jpg)
-
---------------
-
-![Autocomplete example2](./images/screenshot5.jpg)
+![tvm](./images/screenshot4.jpg)
 
 ### Further plans
 
