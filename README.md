@@ -172,7 +172,7 @@ The following TON-functions are supported:
 - block
 - rnd
 
-![tvm](./images/screenshot4.jpg)
+![tvm](./images/screenshot4.png)
 
 ### Further plans
 
